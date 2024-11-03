@@ -13,33 +13,70 @@
 
         <form>
             <div class="input-box">
-                <label for ="Firstname">ชื่อจริง (Thai) :</label>
+                <label for ="Firstname" class="detail">ชื่อจริง (Thai) :</label>
                 <input type ="text" name ="fname" placeholder="ชื่อจริง" required><br><br>
             </div>
 
             <div class="input-box">
-                <label for ="Lastname">นามสกุล (Thai) :</label>
+                <label for ="Lastname" class="detail">นามสกุล (Thai) :</label>
                 <input type ="text" name ="lname" placeholder="นามสกุล" required><br><br>
             </div>
 
             <div class="input-box">
-                <label for ="Firstname">Firstname :</label>
+                <label for ="Firstname" class="detail">Firstname :</label>
                 <input type ="text" name ="fname" placeholder="Firstname" required><br><br>
             </div>
 
             <div class="input-box">
-                <label for ="Lastname">Lastname :</label>
+                <label for ="Lastname" class="detail">Lastname :</label>
                 <input type ="text" name ="lname" placeholder="Lastname" required><br><br>
             </div>
 
             <div class="input-box">
-                <label for ="Gender">เพศ :</label>
-                <input type ="radio" name ="gender"  required>
+                <label for ="Gender" class="detail">เพศ :</label>
+                <input type ="radio" name ="gender" >
                 <label for = "Male">Male</label>
-                <input type ="radio" name ="gender" required>
+                <input type ="radio" name ="gender" >
                 <label for = "Female">Female</label>
-                <input type ="radio" name ="gender"  required>
-                <label for = "Female">ไม่ระบุ</label>
+                <input type ="radio" name ="gender"  >
+                <label for = "Female">ไม่ระบุ</label><br><br>
+            </div>
+
+            <div class="input-box">
+                <label for="ID" class="detail">รหัสนักศึกษา :</label>
+                <input type="text" name="id" placeholder="ID" required><br><br>
+            </div>
+
+            <div class="input-box">
+                <label for="Group" class="detail">คณะที่ศึกษา :</label>
+                <select name="group">
+                    <option value="นิติศาสตร์">นิติศาสตร์</option>
+                    <option value="พาณิชยศาสตร์และการบัญชี">พาณิชยศาสตร์และการบัญชี</option>
+                    <option value="รัฐศาสตร์">รัฐศาสตร์</option>
+                    <option value="เศรษฐศาสตร์">เศรษฐศาสตร์</option>
+                    <option value="สังคมสงเคราะห์ศาสตร์">สังคมสงเคราะห์ศาสตร์</option>
+                    <option value="ศิลปศาสตร์">ศิลปศาสตร์</option>
+                    <option value="วารสารศาสตร์และสื่อสารมวลชน">วารสารศาสตร์และสื่อสารมวลชน</option>
+                    <option value="สังคมวิทยาและมานุษยวิทยา">สังคมวิทยาและมานุษยวิทยา</option>
+                    <option value="วิทยาศาสตร์และเทคโนโลยี">วิทยาศาสตร์และเทคโนโลยี</option>
+                    <option value="วิศวกรรมศาสตร์">วิศวกรรมศาสตร์</option>
+                    <option value="แพทยศาสตร์">แพทยศาสตร์</option>
+                    <option value="สหเวชศาสตร์">สหเวชศาสตร์</option>
+                    <option value="ทันตแพทยศาสตร์">ทันตแพทยศาสตร์</option>
+                    <option value="พยาบาลศาสตร์">พยาบาลศาสตร์</option>
+                    <option value="ศิลปกรรมศาสตร์">ศิลปกรรมศาสตร์</option>
+                    <option value="สถาปัตยกรรมศาสตร์และการผังเมือง">สถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                    <option value="สาธารณสุขศาสตร์">สาธารณสุขศาสตร์</option>
+                    <option value="เภสัชศาสตร์">เภสัชศาสตร์</option>
+                    <option value="วิทยาการเรียนรู้และศึกษาศาสตร์">วิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                    <option value="สถาบันเทคโนโลยีนานาชาติสิรินธร">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+                    <option value="วิทยาลัยนวัตกรรม">วิทยาลัยนวัตกรรม</option>
+                    <option value="วิทยาลัยสหวิทยาการ">วิทยาลัยสหวิทยาการ</option>
+                    <option value="วิทยาลัยนานาชาติปรีดี พนมยงค์">วิทยาลัยนานาชาติปรีดี พนมยงค์</option>
+                    <option value="วิทยาลัยโลกคดีศึกษา">วิทยาลัยโลกคดีศึกษา</option>
+                    <option value="วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+                    <option value="วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
+                </select>
             </div>
 
 
